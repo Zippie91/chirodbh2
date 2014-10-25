@@ -1,0 +1,21 @@
+Contents Chiro Don Bosco Hoboken 
+----------------------------------------------
+
+Header
+	Logo Chiro Don Bosco Hoboken
+	Slogan
+
+Navigatie
+	Home	Ploeg	Afdelingen	Verhuur	Contact	Links en weetjes
+
+Body
+	Tekst/programma's/kalender/...
+	Agenda
+	Foto-galerij
+	Gastenboek
+	Verjaardagen
+	
+Footer
+	leidingspagina
+	Contactgegevens
+	
