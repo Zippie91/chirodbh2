@@ -23,12 +23,31 @@ header img, .header-slogan {
 }
 
 .header-slogan {
-	float: right;
-	position: relative;
+  float: right;
+  position: relative;
 }
 
 .header-slogan img {
-	height: 135px;
-	width: auto;
+  height: 135px;
+  width: auto;
 }
 
+nav {
+  width: 100%;
+  text-align: center;
+  background-color: green;
+}
+
+nav a {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 2px;
+  color: black;
+  background-color: green;
+  text-decoration: none;		
+}
+
+nav a:hover {
+  background-color: blue;
+  color: white;	
+}
