@@ -14,10 +14,21 @@ html {
 }
 
 header {
-  height: 135px;
-  /*background-color: #cc0033;*/
+  padding: 10px;	
+  background-color: #cc0033;
 }
 
-header img {
-  float: left;
+header img, .header-slogan {
+  height: 135px;
 }
+
+.header-slogan {
+	float: right;
+	position: relative;
+}
+
+.header-slogan img {
+	height: 135px;
+	width: auto;
+}
+
