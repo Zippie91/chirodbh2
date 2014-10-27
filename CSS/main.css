@@ -13,6 +13,7 @@ html {
   background: #aaa url(../images/background/red_plaid.png) repeat
 }
 
+/* Header */
 header {
   padding: 10px;	
   background-color: #cc0033;
@@ -32,16 +33,21 @@ header img, .header-slogan {
   width: auto;
 }
 
+/* Navigation */
+/* General */
 nav {
   width: 100%;
   text-align: center;
   background-color: green;
 }
 
+nav li {
+  display: inline-block;
+}
+
 nav a {
   display: inline-block;
   padding: 5px 10px;
-  margin: 0 2px;
   color: black;
   background-color: green;
   text-decoration: none;		
@@ -50,4 +56,25 @@ nav a {
 nav a:hover {
   background-color: blue;
   color: white;	
+}
+
+/* Second level */
+nav .child {
+  display: none;
+  width: 100%;
+  left: 0;
+  position:relative;
+  background-color: green;
+  opacity: 0.8;
+}
+
+nav .child li {
+  padding-right: 0.833%; /* 5px / 60px */
+  padding-left: 0.833%;
+}
+
+nav ul li:hover ul {
+  display: inline;
+  position: absolute;
+  z-index: 1;	
 }
