@@ -19,17 +19,17 @@ header {
   background-color: #cc0033;
 }
 
-header img, .header-slogan {
+header img, #header-slogan {
   height: 135px;
   right: 10%;
 }
 
-.header-slogan {
+#header-slogan {
   float: right;
   position: relative;
 }
 
-.header-slogan img {
+#header-slogan img {
   height: 135px;
   width: auto;
 }
@@ -80,4 +80,32 @@ nav ul li:hover ul {
   display: inline;
   position: absolute;
   z-index: 1;
+}
+
+/* Content */
+#container {
+  background-color: white;
+  width: 80%;
+  border: 2px solid blue;
+  border-radius: 10px;
+  margin: 5px auto 0px auto;
+  overflow: auto;
+}
+
+#content {
+  width: 65.7104%; /* (1000px - 10px - 5px) / 1499px */
+  height: 400px;
+  margin: 10px;
+  margin-right: 5px;
+  background-color: blue;
+  float:left;
+}
+
+aside {
+  width: 31.6488%; /* (490 - 10px - 5px) / 1499px */
+  height: 300px;
+  margin: 10px;
+  margin-left: 5px;
+  background-color: red;
+  float: right;
 }
