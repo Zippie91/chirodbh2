@@ -68,7 +68,7 @@ nav .child {
   left: 0;
   position:relative;
   background-color: #0A9605;
-  opacity: 0.8;
+  border-top: 1px solid black;
 }
 
 nav .child li {
@@ -84,7 +84,7 @@ nav ul li:hover ul {
 
 /* Content */
 #container {
-  background-color: white;
+  background-color: #f7f7e2;
   width: 80%;
   border: 2px solid blue;
   border-radius: 10px;
@@ -96,16 +96,20 @@ nav ul li:hover ul {
   width: 65.7104%; /* (1000px - 10px - 5px) / 1499px */
   height: 400px;
   margin: 10px;
-  margin-right: 5px;
+  margin-left: 0.6671%;
+  margin-right: 0.3335%;
   background-color: blue;
   float:left;
+  border-radius: 10px
 }
 
 aside {
-  width: 31.6488%; /* (490 - 10px - 5px) / 1499px */
+  width: 31.0207%; /* (490 - 10px - 5px) / 1499px */
   height: 300px;
   margin: 10px;
-  margin-left: 5px;
+  margin-right: 0.6671%;
+  margin-left: 0.3335%;
   background-color: red;
   float: right;
+  border-radius: 10px;
 }
