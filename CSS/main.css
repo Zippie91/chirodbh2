@@ -8,6 +8,12 @@ html, body, header, nav, footer, h1, h2, h3, h4, a, p, div, ul, ol, li {
   font-family: 'Times New Roman'
 }
 
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;	
+}
+
 /* Main CSS */
 html {
   background: #aaa url(../images/background/red_plaid.png) repeat
@@ -39,11 +45,7 @@ header img, #header-slogan {
 nav {
   width: 100%;
   text-align: center;
-<<<<<<< HEAD
-  background-color: rgb(12, 171, 7);
-=======
   background-color: #0A9605;
->>>>>>> 8285bae2afc733e456b98623f4b2932b6927a093
 }
 
 nav li {
@@ -56,13 +58,8 @@ nav a {
   display: block;
   padding: 5px 10px;
   color: black;
-<<<<<<< HEAD
-  background-color: rgb(12, 171, 7);
-  text-decoration: none;		
-=======
   background-color: #0A9605;
   text-decoration: none;
->>>>>>> 8285bae2afc733e456b98623f4b2932b6927a093
 }
 
 nav a:hover {
@@ -76,13 +73,8 @@ nav .child {
   width: 100%;
   left: 0;
   position:relative;
-<<<<<<< HEAD
-  background-color: rgb(12, 171, 7);
-  opacity: 0.8;
-=======
   background-color: #0A9605;
   border-top: 1px solid black;
->>>>>>> 8285bae2afc733e456b98623f4b2932b6927a093
 }
 
 nav .child li {
@@ -102,28 +94,29 @@ nav ul li:hover ul {
   width: 80%;
   border: 2px solid blue;
   border-radius: 10px;
-  margin: 5px auto 0px auto;
-  overflow: auto;
+  margin: 15px auto 0px auto;
 }
 
 #content {
   width: 65.7104%; /* (1000px - 10px - 5px) / 1499px */
-  height: 400px;
   margin: 10px;
   margin-left: 0.6671%;
   margin-right: 0.3335%;
   background-color: blue;
   float:left;
-  border-radius: 10px
+  border-radius: 10px;
 }
 
 aside {
   width: 31.0207%; /* (490 - 10px - 5px) / 1499px */
-  height: 300px;
   margin: 10px;
   margin-right: 0.6671%;
   margin-left: 0.3335%;
   background-color: red;
   float: right;
   border-radius: 10px;
+}
+
+.clearfloat {
+  clear: both;	
 }
