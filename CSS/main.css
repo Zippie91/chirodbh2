@@ -15,12 +15,13 @@ html {
 
 /* Header */
 header {
-  padding: 10px;	
+  padding: 10px;
   background-color: #cc0033;
 }
 
 header img, .header-slogan {
   height: 135px;
+  right: 10%;
 }
 
 .header-slogan {
@@ -46,16 +47,18 @@ nav li {
 }
 
 nav a {
-  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  display: block;
   padding: 5px 10px;
   color: black;
   background-color: green;
-  text-decoration: none;		
+  text-decoration: none;
 }
 
 nav a:hover {
   background-color: blue;
-  color: white;	
+  color: white;
 }
 
 /* Second level */
@@ -76,5 +79,5 @@ nav .child li {
 nav ul li:hover ul {
   display: inline;
   position: absolute;
-  z-index: 1;	
+  z-index: 1;
 }
