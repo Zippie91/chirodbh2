@@ -39,7 +39,7 @@ header img, .header-slogan {
 nav {
   width: 100%;
   text-align: center;
-  background-color: green;
+  background-color: #0A9605;
 }
 
 nav li {
@@ -52,7 +52,7 @@ nav a {
   display: block;
   padding: 5px 10px;
   color: black;
-  background-color: green;
+  background-color: #0A9605;
   text-decoration: none;
 }
 
@@ -67,7 +67,7 @@ nav .child {
   width: 100%;
   left: 0;
   position:relative;
-  background-color: green;
+  background-color: #0A9605;
   opacity: 0.8;
 }
 
