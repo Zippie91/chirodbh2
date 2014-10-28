@@ -15,20 +15,21 @@ html {
 
 /* Header */
 header {
-  padding: 10px;	
+  padding: 10px;
   background-color: #cc0033;
 }
 
-header img, .header-slogan {
+header img, #header-slogan {
   height: 135px;
+  right: 10%;
 }
 
-.header-slogan {
+#header-slogan {
   float: right;
   position: relative;
 }
 
-.header-slogan img {
+#header-slogan img {
   height: 135px;
   width: auto;
 }
@@ -38,7 +39,11 @@ header img, .header-slogan {
 nav {
   width: 100%;
   text-align: center;
+<<<<<<< HEAD
   background-color: rgb(12, 171, 7);
+=======
+  background-color: #0A9605;
+>>>>>>> 8285bae2afc733e456b98623f4b2932b6927a093
 }
 
 nav li {
@@ -46,16 +51,23 @@ nav li {
 }
 
 nav a {
-  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  display: block;
   padding: 5px 10px;
   color: black;
+<<<<<<< HEAD
   background-color: rgb(12, 171, 7);
   text-decoration: none;		
+=======
+  background-color: #0A9605;
+  text-decoration: none;
+>>>>>>> 8285bae2afc733e456b98623f4b2932b6927a093
 }
 
 nav a:hover {
   background-color: blue;
-  color: white;	
+  color: white;
 }
 
 /* Second level */
@@ -64,8 +76,13 @@ nav .child {
   width: 100%;
   left: 0;
   position:relative;
+<<<<<<< HEAD
   background-color: rgb(12, 171, 7);
   opacity: 0.8;
+=======
+  background-color: #0A9605;
+  border-top: 1px solid black;
+>>>>>>> 8285bae2afc733e456b98623f4b2932b6927a093
 }
 
 nav .child li {
@@ -76,5 +93,37 @@ nav .child li {
 nav ul li:hover ul {
   display: inline;
   position: absolute;
-  z-index: 1;	
+  z-index: 1;
+}
+
+/* Content */
+#container {
+  background-color: #f7f7e2;
+  width: 80%;
+  border: 2px solid blue;
+  border-radius: 10px;
+  margin: 5px auto 0px auto;
+  overflow: auto;
+}
+
+#content {
+  width: 65.7104%; /* (1000px - 10px - 5px) / 1499px */
+  height: 400px;
+  margin: 10px;
+  margin-left: 0.6671%;
+  margin-right: 0.3335%;
+  background-color: blue;
+  float:left;
+  border-radius: 10px
+}
+
+aside {
+  width: 31.0207%; /* (490 - 10px - 5px) / 1499px */
+  height: 300px;
+  margin: 10px;
+  margin-right: 0.6671%;
+  margin-left: 0.3335%;
+  background-color: red;
+  float: right;
+  border-radius: 10px;
 }
