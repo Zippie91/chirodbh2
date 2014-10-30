@@ -10,18 +10,22 @@ html, body, header, nav, footer, h1, h2, h3, h4, a, p, div, ul, ol, li {
 
 /* Main CSS */
 html {
-  background: #aaa url(../images/background/red_plaid.png) repeat
+  background: #aaa url(../images/background/red_plaid.png) repeat;
+  font-size: 16px;
+}
+
+body {
+  font-size: 62.5%; /* 1em = 10px */	
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 3.6em; /* 36px / 10px */
   font-weight: bold;
-  text-align: center;	
+  text-align: center;
 }
 
 p {
-  font-size: 16px;
-  padding: 20px;
+  font-size: 1.6em;
 }
 
 /* Header */
@@ -59,7 +63,7 @@ nav li {
 
 nav a {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1em;
+  font-size: 1.5em; /* 15px / 10px */
   display: block;
   padding: 5px 10px;
   color: black;
@@ -99,7 +103,7 @@ nav ul li:hover ul {
   width: 81.5148%; /* 1100px / 1349px */
   border: 2px solid blue;
   border-radius: 10px;
-  margin: 15px auto 0px auto;
+  margin: 15px auto;
 }
 
 #content {
@@ -112,6 +116,10 @@ nav ul li:hover ul {
   border-radius: 10px;
 }
 
+#content p {
+  padding: 0 20px 10px 20px;	
+}
+
 aside {
   width: 30.9090%; /* 340px / 1100px */
   margin: 10px;
@@ -122,6 +130,16 @@ aside {
   border-radius: 10px;
 }
 
+aside p {
+  padding: 0 20px 10px 20px;	
+}
+
 .clearfloat {
   clear: both;	
+}
+
+footer {
+  background-color: #cc0022;
+  font-size: 1.6em;
+  height: 100px	
 }
