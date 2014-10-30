@@ -96,27 +96,27 @@ nav ul li:hover ul {
 /* Content */
 #container {
   background-color: #f7f7e2;
-  width: 80%;
+  width: 81.5148%; /* 1100px / 1349px */
   border: 2px solid blue;
   border-radius: 10px;
   margin: 15px auto 0px auto;
 }
 
 #content {
-  width: 65.7104%; /* (1000px - 10px - 5px) / 1499px */
+  width: 66.3636%; /* 730px / 1100px */
   margin: 10px;
-  margin-left: 0.6671%;
-  margin-right: 0.3335%;
+  margin-left: 0.9090%; /* 10px / 1100px */
+  margin-right: 0.4545%; /* 5px / 1100px */
   background-color: blue;
   float:left;
   border-radius: 10px;
 }
 
 aside {
-  width: 31.0207%; /* (490 - 10px - 5px) / 1499px */
+  width: 30.9090%; /* 340px / 1100px */
   margin: 10px;
-  margin-right: 0.6671%;
-  margin-left: 0.3335%;
+  margin-right: 0.9090%; /* 10px / 1100px */
+  margin-left: 0.4545%; /* 5px / 1100px */
   background-color: red;
   float: right;
   border-radius: 10px;
