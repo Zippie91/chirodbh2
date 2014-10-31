@@ -138,8 +138,50 @@ aside p {
   clear: both;	
 }
 
+/* Footer */
 footer {
   background-color: #cc0022;
-  font-size: 1.6em;
-  height: 100px	
+}
+
+footer h2 {
+  font-size: 1.5em;
+  font-weight: bold;	
+}
+
+footer p {
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+#footer-contact {
+  width: auto;
+  padding: 1.282%;	
+  float: left;
+}
+
+#footer-links {
+  width: 200px;
+  margin: 0 auto;	
+  padding-top: 1.282%;
+}
+
+#footer-links a {
+  text-decoration: none;
+  color: #EB99AD;	
+  margin: 0 5px
+}
+
+#footer-date {
+  float: right;	
+  padding: 1.282%;
+  text-align: right;
+}
+
+#footer-date h3 {
+  font-size: 1.4em;	
+  font-weight: bold;
+}
+
+#footer-date p {
+  font-size: 1em;	
 }
