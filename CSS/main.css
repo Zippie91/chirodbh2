@@ -16,6 +16,7 @@ html {
 
 body {
   font-size: 62.5%; /* 1em = 10px */	
+  height: 100%;
 }
 
 h1 {
@@ -26,6 +27,18 @@ h1 {
 
 p {
   font-size: 1.6em;
+}
+
+/* Wrapper */
+#wrapper {
+  min-height: 100%;
+  margin-bottom: -100px;
+}
+
+#wrapper:after {
+  content: "";
+  display: block;
+  height: 100px;
 }
 
 /* Header */
@@ -141,6 +154,7 @@ aside p {
 /* Footer */
 footer {
   background-color: #cc0022;
+  height: 100px;
 }
 
 footer h2 {
