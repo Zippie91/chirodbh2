@@ -23,6 +23,7 @@ h1 {
   font-size: 3.6em; /* 36px / 10px */
   font-weight: bold;
   text-align: center;
+  color: #009661;
 }
 
 p {
@@ -67,7 +68,7 @@ header img, #header-slogan {
 nav {
   width: 100%;
   text-align: center;
-  background-color: #0A9605;
+  background-color: #4DC500;
 }
 
 nav li {
@@ -80,12 +81,12 @@ nav a {
   display: block;
   padding: 5px 10px;
   color: black;
-  background-color: #0A9605;
+  background-color: #4DC500;
   text-decoration: none;
 }
 
 nav a:hover {
-  background-color: blue;
+  background-color: #1C7053;
   color: white;
 }
 
@@ -95,7 +96,7 @@ nav .child {
   width: 100%;
   left: 0;
   position:relative;
-  background-color: #0A9605;
+  background-color: #4DC500;
   border-top: 1px solid black;
 }
 
@@ -112,11 +113,11 @@ nav ul li:hover ul {
 
 /* Content */
 #container {
-  background-color: #f7f7e2;
   width: 81.5148%; /* 1100px / 1349px */
-  border: 2px solid blue;
+  border: 2px ridge #CC0033;
   border-radius: 10px;
   margin: 15px auto;
+  background-color: white;
 }
 
 #content {
@@ -124,7 +125,6 @@ nav ul li:hover ul {
   margin: 10px;
   margin-left: 0.9090%; /* 10px / 1100px */
   margin-right: 0.4545%; /* 5px / 1100px */
-  background-color: blue;
   float:left;
   border-radius: 10px;
 }
@@ -138,7 +138,7 @@ aside {
   margin: 10px;
   margin-right: 0.9090%; /* 10px / 1100px */
   margin-left: 0.4545%; /* 5px / 1100px */
-  background-color: red;
+  background-color: #850021;
   float: right;
   border-radius: 10px;
 }
@@ -153,7 +153,7 @@ aside p {
 
 /* Footer */
 footer {
-  background-color: #cc0022;
+  background-color: #cc0033;
   height: 100px;
 }
 
