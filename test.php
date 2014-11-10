@@ -24,9 +24,10 @@ Sed mollis non urna volutpat euismod. Suspendisse posuere massa ante, sed blandi
   include('layout/_body-content-aside.inc.php');
   ?>
   <!-- Body Aside -->
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia maximus lectus a luctus. Morbi elementum ipsum vitae tellus sagittis, et efficitur ante interdum. Nullam maximus lacinia ante sit amet luctus. Curabitur nec tortor rhoncus, bibendum odio quis, volutpat ex. Mauris vehicula lorem semper nulla congue, a porttitor ipsum ullamcorper. Quisque volutpat tortor ac sem imperdiet iaculis. Duis volutpat lacinia urna, eget aliquam mi interdum et. Ut vitae laoreet nibh.
-  </p>
+  <h1>Attention!</h1>
+  <p>Let op!</p>
+  <h1>Gastenboek</h1>
+  <h1>Verjaardag</h1>
   <!-- End Aside -->
   <?php
   include('layout/_body-footer.inc.php');
