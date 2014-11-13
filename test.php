@@ -3,28 +3,28 @@
 require_once("Connection/db_connection.php");
 
 /* Query the database */
-$query_homeposts = 'SELECT * from homeposts';
+$query_homeposts = 'SELECT * from homeposts ORDER BY id DESC';
 $homeposts = $conn->query($query_homeposts);
 $totalRows_homeposts = $homeposts->rowCount();
 
-include('_head.inc.php');
-include('_body-header.inc.php');
+include('layout/_head.inc.php');
+include('layout/_body-header.inc.php');
 
 /* Main content */
-include('_body-content-main.inc.php');
+include('layout/_body-content-main.inc.php');
 ?>
 <!-- Body Main Content -->
 <?php
 while($row_homeposts = $homeposts->fetch(PDO::FETCH_ASSOC)) {
   echo "<h1>" . $row_homeposts['titel'] . "</h1>";
-  echo $row_homeposts['text'];
+  echo "<p>" . $row_homeposts['text'] . "</p>";
   echo "<br />";
 }
 ?>
   <!-- End Main Content -->
 <?php
 /* Aside */
-include('_body-content-aside.inc.php');
+include('layout/_body-content-aside.inc.php');
 ?>
 <!-- Body Aside -->
 <p>
@@ -32,5 +32,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia maximus
 </p>
 <!-- End Aside -->
 <?php
-include('_body-footer.inc.php');
+include('layout/_body-footer.inc.php');
 ?>

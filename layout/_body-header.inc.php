@@ -2,10 +2,10 @@
     <div id="wrapper">
       <header>
         <a href="#">
-          <img src="/ChiroDB2/images/logodbh.png" alt="Chiro Don Bosco Hoboken" />
+          <img src="/Chirodbh2/images/logodbh.png" alt="Chiro Don Bosco Hoboken" />
         </a>
         <div id="header-slogan">
-          <img src="/ChiroDB2/images/T-shirt_achterkant_achter_elkaar_(kleur).jpg" alt="Slogan Chiro Don Bosco Hoboken" />
+          <img src="/Chirodbh2/images/T-shirt_achterkant_achter_elkaar_(kleur).jpg" alt="Slogan Chiro Don Bosco Hoboken" />
         </div>
       </header>
       <nav>
