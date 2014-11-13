@@ -144,7 +144,7 @@ aside {
   margin: 10px;
   margin-right: 0.9090%; /* 10px / 1100px */
   margin-left: 0.4545%; /* 5px / 1100px */
-  background-color: red;
+  background-color: #850021;
   float: right;
   border-radius: 10px;
 }
