@@ -25,6 +25,12 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;	
+}
+
 p {
   font-size: 1.6em;
 }

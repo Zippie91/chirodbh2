@@ -24,10 +24,10 @@ Sed mollis non urna volutpat euismod. Suspendisse posuere massa ante, sed blandi
   include('layout/_body-content-aside.inc.php');
   ?>
   <!-- Body Aside -->
-  <h1>Attention!</h1>
+  <h3>Attention!</h3>
   <p>Let op!</p>
-  <h1>Gastenboek</h1>
-  <h1>Verjaardag</h1>
+  <h3>Gastenboek</h3>
+  <h3>Verjaardag</h3>
   <!-- End Aside -->
   <?php
   include('layout/_body-footer.inc.php');
