@@ -26,7 +26,7 @@ h1 {
 }
 
 h3 {
-  font-size: 1.8em;
+  font-size: 1.8em; /* 18px / 10px */
   font-weight: bold;
   text-align: center;	
   color: #EFAB6C;

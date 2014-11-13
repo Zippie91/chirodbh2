@@ -1,3 +1,5 @@
+<?php require_once('Connection/db_connect.php'); ?>
+
 <?php
   include('layout/_head.inc.php');
   include('layout/_body-header.inc.php');
@@ -24,8 +26,9 @@ Sed mollis non urna volutpat euismod. Suspendisse posuere massa ante, sed blandi
   include('layout/_body-content-aside.inc.php');
   ?>
   <!-- Body Aside -->
-  <h3>Attention!</h3>
-  <p>Let op!</p>
+  <h3>Let op!</h3>
+  <p></p>
+  <h3>Volgende activiteit</h3>
   <h3>Gastenboek</h3>
   <h3>Verjaardag</h3>
   <!-- End Aside -->
