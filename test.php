@@ -33,4 +33,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia maximus
 <!-- End Aside -->
 <?php
 include('layout/_body-footer.inc.php');
+
+$homeposts->CloseCursor();
+$conn = null;
 ?>
