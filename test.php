@@ -1,4 +1,4 @@
-<?php require_once('Connection/db_connect.php'); ?>
+<?php require_once('Connection/db_connection.php'); ?>
 
 <?php
   include('layout/_head.inc.php');
@@ -30,7 +30,6 @@ Sed mollis non urna volutpat euismod. Suspendisse posuere massa ante, sed blandi
   <p></p>
   <h3>Volgende activiteit</h3>
   <h3>Gastenboek</h3>
-  <h3>Verjaardag</h3>
   <!-- End Aside -->
   <?php
   include('layout/_body-footer.inc.php');
