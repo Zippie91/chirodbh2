@@ -13,7 +13,7 @@ class ChatUser extends ChatBase {
 	
 	public function save() {
 		$sql = 'INSERT INTO gastenboek_users (name, gravatar) VALUES (:name, :gravatar)';
-		$stmt = ChatUser::StatementExec($sql);
+		$stmt = $conn->exec($sql);
 		
 		return $stmt;
 	}

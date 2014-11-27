@@ -20,7 +20,7 @@ class Chat {
         ));
 		
 		// De save methode geeft een PDO object
-		if( $user->save()->rowCount() != 1 ) {
+		if( $user->save() != 1 ) {
 			throw new Exception('Deze naam is al in gebruik');	
 		}
 		
@@ -93,15 +93,49 @@ class Chat {
 		
 		// Verwijder chats die ouder zijn dan 30 minuten
 		$sql_chat = 'DELETE FROM gastenboek_lines WHERE ts < :time_chat';
-		$stmt_chat = $conn->execute(array(':time_chat' => 'SUBTIME(NOW(), 0:30:0'));
+		$conn->execute(array(':time_chat' => 'SUBTIME(NOW(), 0:30:0'));
 		
 		// Verwijder users die meer dan 30 seconden inactief zijn
 		$sql_user = 'DELETE FROM gastenboek_users WHERE last_activity < :time_user';
-		$stmt_user = $conn->execute(array(':time_user' => 'SUBTIME(NOW(), 0:0:30)'));
+		$conn->execute(array(':time_user' => 'SUBTIME(NOW(), 0:0:30)'));
 		
 		// Return users van DB
 		$sql_db_users = 'SELECT * FROM gastenboek_users ORDER BY name ASC LIMIT 18';
-		$stmt_db_user = $conn->execute();
+		$stmt_db_user = $conn->query($sql_db_users);
+		$totalRows_users = $stmt_db_user->rowCount();
+		
+		$users = array();
+		while($db_user = $stmt_db_user->fetch(PDO::FETCH_ASSOC)) {
+			$db_user->gravatar = Chat::gravatarFromHash($db_user->gravatar,30);
+            $users[] = $db_user;
+		}
+		
+		return array(
+			'users' => $users,
+			'total' => $totalRows_users);
+	}
+	
+	public static function getChats($lastID) {
+		$lastID = (int)$lastID;
+		
+		$sql_chat = 'SELECT * FROM gastenboek_lines WHERE id > ' . $lastID . ' ORDER BY id ASC';
+		$stmt_db_chat = $conn->query($sql_chat);
+		
+		$chats = array();
+		while($db_chat = $stmt_db_chat->fetch(PDO::FETCH_ASSOC)) {
+			// Return de tijd van de chat:
+
+            $db_chat->time = array(
+                'uren'        => gmdate('H',strtotime($db_chat->ts)),
+                'minuten'    => gmdate('i',strtotime($db_chat->ts))
+            );
+
+            $db_chat->gravatar = Chat::gravatarFromHash($db_chat->gravatar);
+
+            $chats[] = $db_chat;
+		}
+		
+		return array('chats' => $chats);
 	}
 	
 	public static function gravatarFromHash($hash, $size=23){
