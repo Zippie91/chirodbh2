@@ -307,11 +307,11 @@ var chat = {
 // Custom GET & POST wrappers:
 
 $.tzPOST = function(action,data,callback){
-	$.post('PHP/ChatControl.php?action='+action,data,callback,'json');
+	$.post('Controller/ChatControl.php?action='+action,data,callback,'json');
 }
 
 $.tzGET = function(action,data,callback){
-	$.get('PHP/ChatControl.php?action='+action,data,callback,'json');
+	$.get('Controller/ChatControl.php?action='+action,data,callback,'json');
 }
 
 // Een custom jQuery methode voor placeholder tekst:

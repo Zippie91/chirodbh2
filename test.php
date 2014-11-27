@@ -30,6 +30,7 @@ Sed mollis non urna volutpat euismod. Suspendisse posuere massa ante, sed blandi
   <p></p>
   <h3>Volgende activiteit</h3>
   <h3>Gastenboek</h3>
+  <?php include('includes/gastenboek/gastenboek.php'); ?>
   <!-- End Aside -->
   <?php
   include('layout/_body-footer.inc.php');
