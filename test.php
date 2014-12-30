@@ -3,7 +3,7 @@
 require_once("Connection/db_connection.php");
 
 /* Query the database */
-$query_homeposts = 'SELECT * from homeposts ORDER BY id DESC';
+$query_homeposts = 'SELECT * from home_posts ORDER BY id DESC';
 $homeposts = $conn->query($query_homeposts);
 $totalRows_homeposts = $homeposts->rowCount();
 
