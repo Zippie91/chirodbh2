@@ -1,0 +1,89 @@
+/* Main Chat container */
+#chatContainer {
+	width: 90%;
+	margin: 0 auto;
+	position: relative;	
+}
+
+/* Top Bar */
+#chatTopBar {
+	height: 30px;
+	background: url('../images/gastenboek/solid_gray.jpg') repeat-x #d0d0d0;
+	border: 1px solid #fff;
+	margin-bottom: 10px;
+	position: relative;
+	color: #777;
+	text-shadow: 1px 1 px 0 #ffffff;
+}
+
+#chatTopBar .name{
+	position:absolute;
+	top:10px;
+	left:40px;
+}
+
+#chatTopBar img{
+	left:9px;
+	position:absolute;
+	top:8px;
+}
+
+/* Chats */
+#chatLineHolder{
+	height:150px;
+	width:65%;
+	margin-bottom:20px;
+}
+
+.chat{
+	background:url('../images/gastenboek/chat_line_bg.jpg') repeat-x #d5d5d5;
+	min-height:18px;
+	padding:6px;
+	position: relative;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.chat:last-child {
+	margin-bottom: 0;
+}
+
+.chat span{
+	color:#777777;
+	text-shadow:1px 1px 0 #FFFFFF;
+	font-size:1.2em;
+}
+
+.chat .text{
+	color:#444444;
+	display:inline-block;
+	font-size:1.5em;
+	overflow:hidden;
+	vertical-align:top;
+	width:55%;
+}
+
+.chat .gravatar{
+	/*background:url('http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?size=23') no-repeat;*/
+	left: 3.5px;
+	position:absolute;
+	top:3.5px;
+}
+
+.chat img{
+	display:block;
+	visibility:hidden;
+}
+
+.chat .time{
+	position:absolute;
+	right:10px;
+	top:12px;
+	font-size:11px;
+}
+
+.chat .author{
+	margin-left: 30px;
+	margin-right:6px;
+	font-size:1.1em;
+}

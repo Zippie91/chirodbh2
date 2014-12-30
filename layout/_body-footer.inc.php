@@ -18,5 +18,9 @@
       </div>
       <div class="clearfloat"></div>
     </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="JS/jScrollPane/jquery.mousewheel.js"></script>
+    <script src="JS/jScrollPane/jquery.jScrollPane.min.js"></script>
+    <script src="JS/gastenboek.js"></script>
   </body>
 </html>

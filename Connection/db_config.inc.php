@@ -2,5 +2,12 @@
 $servername = "localhost";
 $user = "root";
 $password = "";
-$dbname = "chirodon_chirodb";
+$dbname = "chirodonbosco";
+
+$dbOptions = array(
+	'engine' => 'mysql',
+	'database' => 'chirodonbosco',
+	'host' => 'localhost',
+	'user' => 'root',
+	'pass' => '');
 ?>

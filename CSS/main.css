@@ -26,6 +26,13 @@ h1 {
   color: #009661;
 }
 
+h3 {
+  font-size: 1.8em; /* 18px / 10px */
+  font-weight: bold;
+  text-align: center;	
+  color: #EFAB6C;
+}
+
 p {
   font-size: 1.6em;
 }
