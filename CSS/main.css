@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  font-size: 62.5%; /* 1em = 10px */	
+  font-size: 62.5%; /* 1em = 10px */
   height: 100%;
 }
 
@@ -29,7 +29,7 @@ h1 {
 h3 {
   font-size: 1.8em; /* 18px / 10px */
   font-weight: bold;
-  text-align: center;	
+  text-align: center;
   color: #EFAB6C;
 }
 
@@ -134,10 +134,11 @@ nav ul li:hover ul {
   margin-right: 0.4545%; /* 5px / 1100px */
   float:left;
   border-radius: 10px;
+  text-align: center;
 }
 
 #content p {
-  padding: 0 20px 10px 20px;	
+  padding: 0 20px 10px 20px;
 }
 
 aside {
@@ -151,11 +152,11 @@ aside {
 }
 
 aside p {
-  padding: 0 20px 10px 20px;	
+  padding: 0 20px 10px 20px;
 }
 
 .clearfloat {
-  clear: both;	
+  clear: both;
 }
 
 /* Footer */
@@ -166,7 +167,7 @@ footer {
 
 footer h2 {
   font-size: 1.5em;
-  font-weight: bold;	
+  font-weight: bold;
 }
 
 footer p {
@@ -176,33 +177,33 @@ footer p {
 
 #footer-contact {
   width: auto;
-  padding: 1.282%;	
+  padding: 1.282%;
   float: left;
 }
 
 #footer-links {
   width: 200px;
-  margin: 0 auto;	
+  margin: 0 auto;
   padding-top: 1.282%;
 }
 
 #footer-links a {
   text-decoration: none;
-  color: #EB99AD;	
+  color: #EB99AD;
   margin: 0 5px
 }
 
 #footer-date {
-  float: right;	
+  float: right;
   padding: 1.282%;
   text-align: right;
 }
 
 #footer-date h3 {
-  font-size: 1.4em;	
+  font-size: 1.4em;
   font-weight: bold;
 }
 
 #footer-date p {
-  font-size: 1em;	
+  font-size: 1em;
 }

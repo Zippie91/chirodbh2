@@ -13,8 +13,8 @@
         <p>Raf Smits</p>
       </div>
       <div id="footer-links">
-        <a href="#">leidingspagina</a>
         <a href="#">feedback</a>
+        <a href="#">leidingspagina</a>
       </div>
       <div class="clearfloat"></div>
     </footer>
