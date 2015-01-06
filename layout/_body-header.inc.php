@@ -13,18 +13,12 @@
           <li><a href="index.php?home=1">Home</a></li>
           <li><a href="index.php?home=2">Afdelingen</a>
             <ul class="child">
-              <li><a href="#">Ribbels</a></li>
-              <li><a href="#">Rakwi&acute;s</a></li>
-              <li><a href="#">Tito&acute;s</a></li>
-              <li><a href="#">KeA&acute;s</a></li>
+              <?php include('include/nav/afdeling.php'); ?>
             </ul>
           </li>
           <li><a href="index.php?home=3">Werkgroepen</a>
             <ul class="child">
-              <li><a href="#">Leiding</a></li>
-              <li><a href="#">Veebees</a></li>
-              <li><a href="#">Ol&eacute;</a></li>
-              <li><a href="#">VZW</a></li>
+              <?php include('include/nav/werkgroep.php'); ?>
             </ul>
           </li>
           <li><a href="index.php?home=4">Verhuur</a></li>

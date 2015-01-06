@@ -1,5 +1,5 @@
 /* Reset all styles */
-html, body, header, nav, footer, h1, h2, h3, h4, a, p, div, ul, ol, li {
+html, body, header, nav, footer, h1, h2, h3, h4, a, p, div, ul, ol, li, br {
   padding: 0;
   margin: 0;
   border: 0;
@@ -10,6 +10,8 @@ html, body, header, nav, footer, h1, h2, h3, h4, a, p, div, ul, ol, li {
 
 /* Main CSS */
 html {
+  /* background: #aaa url(../images/background/red_plaid.png) repeat; */
+  /* background: #aaa url(../images/background/symphony-blue.png) repeat; */
   background: #aaa url(../images/background/congruent_pentagon_blue.png) repeat;
   font-size: 16px;
 }
@@ -26,19 +28,21 @@ h1 {
   color: #009661;
 }
 
-h3 {
-  font-size: 1.8em; /* 18px / 10px */
+h2 {
+  font-size: 2.4em; /* 24px / 10px */
   font-weight: bold;
   text-align: center;
-  color: #EFAB6C;
+  color: #009661;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 2em; /* 18px / 10px */
+  color: white;
 }
 
 p {
   font-size: 1.6em;
-}
-
-a {
-  text-decoration: none;
 }
 
 /* Wrapper */
@@ -120,12 +124,13 @@ nav ul li:hover ul {
   display: inline;
   position: absolute;
   z-index: 1;
+  transition: display 0.5s;
 }
 
 /* Content */
 #container {
   width: 81.5148%; /* 1100px / 1349px */
-  border: 2px ridge #CC0033;
+  border: 2px ridge #cc0033;
   border-radius: 10px;
   margin: 15px auto;
   background-color: white;
@@ -138,29 +143,10 @@ nav ul li:hover ul {
   margin-right: 0.4545%; /* 5px / 1100px */
   float:left;
   border-radius: 10px;
-  text-align: center;
 }
 
 #content p {
   padding: 0 20px 10px 20px;
-}
-
-.programma {
-  margin: 15px 10%;
-  padding: 10px;	
-  border-radius: 10px;
-  border: 1px ridge #CC0033;
-}
-
-.programma h2 {
-  font-size: 2.4em;
-  font-weight: bold;
-  color: #8e0707;
-}
-
-.programma h4 {
-  font-size: 1.8em;
-  float: left;	
 }
 
 aside {
@@ -168,6 +154,7 @@ aside {
   margin: 10px;
   margin-right: 0.9090%; /* 10px / 1100px */
   margin-left: 0.4545%; /* 5px / 1100px */
+  /* background-color: red; */
   background-color: #850021;
   float: right;
   border-radius: 10px;
@@ -177,19 +164,40 @@ aside p {
   padding: 0 20px 10px 20px;
 }
 
+.activiteit {
+  text-align: center;
+}
+
+.activiteit a {
+  display: block;
+  margin: 0 10px 5px;
+  padding: 5px 10px;
+  border: 1px solid white;
+  text-decoration: none;
+}
+
+.activiteit a:hover {
+  background-color: white;
+}
+
+.activiteit a:hover h3 {
+  color: black;
+}
+
 .clearfloat {
   clear: both;
 }
 
 /* Footer */
 footer {
-  background-color: #cc0033;
+  background-color: #cc0022;
   height: 100px;
 }
 
 footer h2 {
   font-size: 1.5em;
   font-weight: bold;
+  color: black;
 }
 
 footer p {
@@ -200,6 +208,7 @@ footer p {
 #footer-contact {
   width: auto;
   padding: 1.282%;
+  padding-bottom: 0;
   float: left;
 }
 
@@ -207,13 +216,13 @@ footer p {
   width: 200px;
   margin: 0 auto;
   padding-top: 1.282%;
+  text-align: center;
 }
 
 #footer-links a {
   text-decoration: none;
   color: #EB99AD;
   margin: 0 5px;
-  font-size: 1em;
 }
 
 #footer-date {
@@ -225,6 +234,7 @@ footer p {
 #footer-date h3 {
   font-size: 1.4em;
   font-weight: bold;
+  color: black;
 }
 
 #footer-date p {

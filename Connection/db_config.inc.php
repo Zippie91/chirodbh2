@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $user = "root";
-$password = "bratskipke";
+$password = "";
 $dbname = "chirodonbosco";
 
 $dbOptions = array(
@@ -9,5 +9,5 @@ $dbOptions = array(
 	'database' => 'chirodonbosco',
 	'host' => 'localhost',
 	'user' => 'root',
-	'pass' => 'bratskipke');
+	'pass' => '');
 ?>
