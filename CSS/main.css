@@ -5,7 +5,7 @@ html, body, header, nav, footer, h1, h2, h3, h4, a, p, div, ul, ol, li {
   border: 0;
   font: inherit;
   font-size: 100%;
-  font-family: 'Times New Roman'
+  font-family: 'Source Sans Pro', Arial, sans-serif;
 }
 
 /* Main CSS */
@@ -19,18 +19,30 @@ body {
   height: 100%;
 }
 
-h1 {
-  font-size: 3.6em; /* 36px / 10px */
+h1, h2, h3, h4 {
   font-weight: bold;
   text-align: center;
+  font-family: 'Merriweather', 'Times New Roman';
+}
+
+h1 {
+  font-size: 3.6em; /* 36px / 10px */
   color: #009661;
+}
+
+h2 {
+  font-size: 2.4em; /* 24px / 10px */
+  color: #8e0707;
+  clear: both;
 }
 
 h3 {
   font-size: 1.8em; /* 18px / 10px */
-  font-weight: bold;
-  text-align: center;
   color: #EFAB6C;
+}
+
+h4 {
+  font-size: 1.2em; /* 16px /10px */
 }
 
 p {
@@ -87,7 +99,7 @@ nav li {
 }
 
 nav a {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
   font-size: 1.5em; /* 15px / 10px */
   display: block;
   padding: 5px 10px;
@@ -163,6 +175,48 @@ nav ul li:hover ul {
   float: left;	
 }
 
+.ploeg {
+  font-size: 1.6em;
+  text-align: left;
+  width: 45.8733%;
+  min-width: 275px;
+  float: left;
+  margin: 1.0548%;
+}
+
+.ploeg .naam {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-decoration: underline;
+  width: 100%;
+  text-align: center;	
+}
+
+.ploeg .foto {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  float:left;	
+  margin: 35px 10px;
+}
+
+.ploeg img {
+  width: 100px;
+  height: auto;
+  position: relative;
+}
+
+.ploeg .tekst {
+  margin: 15px 0;
+  width: 63.7551%;
+  margin-left: 120px;
+}
+
+.ploeg .tekst ul {
+  list-style: none;	
+}
+
 aside {
   width: 30.9090%; /* 340px / 1100px */
   margin: 10px;
@@ -190,6 +244,7 @@ footer {
 footer h2 {
   font-size: 1.5em;
   font-weight: bold;
+  color: black;
 }
 
 footer p {
